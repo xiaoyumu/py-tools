@@ -1,0 +1,10 @@
+.vscode/
+.DS_Store
+.idea/
+__pycache__/
+*-checkpoint.ipynb
+.venv
+*.egg*
+build/*
+_C.*
+outputs/*
