@@ -23,7 +23,7 @@ python ci-dl.py \
     --proxy "socks5h://localhost:1080"
 ```
 
-Inspect the download url and file name for the model via socks5 proxy.
+Inspect the download url and file name for the model via socks5 proxy. Inspect mode is very useful when you download speed is very slow with browser direct download. With this mode, you can get the real download link, then you can download the model file with your favorite download tools.
 ```commandline    
 python ci-dl.py \
     --url "Model URL" \
