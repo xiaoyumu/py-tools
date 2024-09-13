@@ -24,6 +24,7 @@ python ci-dl.py \
 ```
 
 Inspect the download url and file name for the model via socks5 proxy. Inspect mode is very useful when you download speed is very slow with browser direct download. With this mode, you can get the real download link, then you can download the model file with your favorite download tools.
+You can retrieve the download url by **right-clicking** on the ```Download``` button in CIVITAI model page, then select "```Copy Link Address```" (Chrome).
 ```commandline    
 python ci-dl.py \
     --url "Model URL" \
