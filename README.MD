@@ -20,14 +20,14 @@ Download the model to specific output folder via socks5 proxy
 python ci-dl.py \
     --url "Model URL" \
     --output /workspace/ComfyUI/models/checkpoints/SDXL/ \
-    --proxy "socks5h:localhost:1080"
+    --proxy "socks5h://localhost:1080"
 ```
 
 Inspect the download url and file name for the model via socks5 proxy.
 ```commandline    
 python ci-dl.py \
     --url "Model URL" \
-    --proxy "socks5h:localhost:1080" \
+    --proxy "socks5h://localhost:1080" \
     --inspect
 ```
 
@@ -42,5 +42,6 @@ Download model files to specific output folder and overwrite exist file.
 python hf-dl.py \
     --url "Model file url" \
     --output /workspace/ComfyUI/models/checkpoints/SDXL/ \
+    --proxy "socks5h://localhost:1080" \
     --overwrite
 ```
